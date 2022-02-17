@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+a {
+  color: var(--font);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: rotate(360deg) scale(1.2);
+}

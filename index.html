@@ -18,10 +18,12 @@
 </head>
 
 <body>
+
   <header class="header">
     <h1 class="title">Sketchpad</h1>
   </header>
-  <main class="main">
+
+  <div class="main">
     <div class="settings">
       <input id="colorPicker" type="color" value="#333333" />
       <button id="colorBtn">Color mode</button>
@@ -32,10 +34,14 @@
       <input id="sizeSlider" type="range" value="16" min="1" max="64" />
     </div>
     <div id="grid" class="grid"></div>
-  </main>
-  <footer class="footer">
+  </div>
 
+  <footer class="footer">
+    <p> <i class="fa-regular fa-copyright"></i> <a href="https://github.com/cavasol" target="_blank"> CAVASOL </a>
+      <script> document.write(new Date().getFullYear()) </script>
+    </p>
   </footer>
+
   <script src="main.js"></script>
 </body>
 
